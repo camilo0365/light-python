@@ -1,5 +1,5 @@
 #===========================================================================================
-#                                  SLIMMER-PYTHON
+#                                  LIGHT-PYTHON
 #
 # THIS DOCKERFILE IS BASED ON OFFICIAL PYTHON DOCKER IMAGE, WITH THE FOLLOWING TUNE-UPS:
 #
@@ -8,7 +8,7 @@
 #
 #    https://hub.docker.com/_/debian/
 #
-# Build image as: $ docker build -t camilo0365r/light-python:3.6.1 -f Dockerfile.base .
+# Build image as: $ docker build -t camilo0365r/light-python:3.6.1 .
 #==========================================================================================
 
 FROM debian:stretch-slim
