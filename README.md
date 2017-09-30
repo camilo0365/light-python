@@ -31,3 +31,11 @@ At the time of writing (October 2017) the official Python [Docker registry](http
 ```bash
 $ docker pull camilo0365r/light-python:latest
 ```
+
+## Build
+
+```bash
+$ git clone https://github.com/camilo0365/light-python.git
+$ cd light-python
+$ docker build -t <insert_tag_name> .
+```
